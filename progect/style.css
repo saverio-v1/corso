@@ -39,7 +39,7 @@
     gap: 1em;
     /*margin: 1em 3em;*/
 }
-.subtitle, .title {
+.subtitle, .title , .services-subtitle, .services-title {
     /*grid-column-start: 1;
     grid-column-end: 4;*/
     grid-column: 1/4;
@@ -179,9 +179,16 @@
     }
     .features-container{
         grid-template-columns: repeat(2,1fr);
+        padding: 0 20px;
     }
-    .title,.subtitle{
+    .features-container > .title,.subtitle{
         grid-column: 1/3;
+    }
+    .services-container{
+        grid-template-columns: 1fr;
+    }
+    .services-subtitle, .services-title{
+        grid-template-columns: 1/2;
     }
 
 } 
