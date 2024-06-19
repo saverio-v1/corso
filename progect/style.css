@@ -170,5 +170,18 @@
     line-height: 30px;
 }
 @media only screen and (max-width: 768px) {
-    
+    .community-container{
+        grid-template-columns: repeat(2,1fr)
+    }
+    .community-container-text{
+        grid-column: 1/3;
+
+    }
+    .features-container{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .title,.subtitle{
+        grid-column: 1/3;
+    }
+
 } 
