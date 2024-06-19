@@ -1,0 +1,58 @@
+/* selettore universale */
+*{
+    color: darkgreen;
+}
+body {margin: 0;}
+
+/* selettore tag */
+body {
+    background-color: yellow;
+}
+
+
+/* selettore classe */
+
+.blue {
+    background-color: blue;
+}
+
+.white{
+    color: white;
+}
+
+.bold {
+    font-weight: 700;
+    color: rgb(255, 0, 0);
+}
+
+/* selettore id */
+.#red {
+    color: red;
+} 
+
+.box > div > h1{
+    color: deeppink;
+} 
+
+/*.box:hover{
+    background-color: green;
+}*/
+
+a:visited{
+    color: black;
+}
+a:active{
+    color: greenyellow;
+}
+
+h1,
+h2,
+h3 {
+    color: indigo;
+}
+
+.box {
+    background-color: pink;
+    height: 50%;
+    width: 100vw;
+}

@@ -1,0 +1,37 @@
+body {
+    background-color: rgb(129, 160, 165);
+    font-family: "Cactus Classical Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1{
+    font-size: 48px;
+    color: hsl(120, 100%, 50%);
+    font-weight: 900;
+    /*font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;*/
+    font-style: oblique;
+}
+.titolo{
+    color: white;
+
+}
+
+.box{color: yellow;
+    border: 2px solid white;
+    /*border-width: 2px;
+    border-style: solid;
+    border-color: white;*/
+    margin: 100px 0 50px 0;
+    /*margin-top: 100px;
+    margin-bottom: 50px;*/
+    padding: 25px 10px;
+}
+
+.immagine{
+    /*height: 350px;
+    width: 500px;*/
+    height: auto;
+    width: 100;
+    max-height: 800px;
+}
