@@ -177,7 +177,6 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     
-    
 
 }
 .information-container-subtitle{
@@ -217,6 +216,15 @@
     color: #767676;
     
 
+}
+.information-container-card-icon{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: #ff9305;
+    position: absolute;
+    left: 0;
+    bottom: 0;
 }
 
 @media only screen and (max-width: 768px) {
