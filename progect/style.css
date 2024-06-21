@@ -176,19 +176,34 @@
     background-color: #1edbde;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 3em 2em;
     
 
 }
 .information-container-subtitle{
     grid-column: 1/5;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
 
 }
 .information-container-title{
     grid-column: 1/5;
+    color: white;
+    font-size: 47px;
+    line-height: 1.2em;
+    font-weight: 600;
+
 
 }
 .information-container-desc{
     grid-column: 1/5;
+    color: white;
+    font-size: 18px;
+    line-height: 33px;
+    margin-top: 18px;
 
 }
 .information-container-card{
@@ -196,10 +211,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 25px 20px;
+    padding: 35px 30px;
     background-color: white;
     border-radius: 8px;
-    width: 25%;
+    width: 75%;
+    position: relative;
+    margin: 2em;
 
 }
 .information-container-card > h4 {
@@ -208,12 +225,15 @@
     line-height: 1em;
     color: black;
     
+    
 }
 .information-container-card > p {
     font-weight: 600;
     font-size: 16px;
     line-height: 21px;
     color: #767676;
+    display: inline-block;
+    position: relative;
     
 
 }
@@ -224,8 +244,32 @@
     background-color: #ff9305;
     position: absolute;
     left: 0;
-    bottom: 0;
+    bottom: -35px;
+    right: 0;
+    margin: 0 auto;
+    
+
+    
 }
+body::-webkit-scrollbar-thumb{
+    background-color: #1edbde;
+    
+}
+
+body::-webkit-scrollbar{
+    background-color: rgb(255, 255, 255);
+}
+
+.main{
+    display: grid;
+    grid-template-columns: repeat(4 1fr);
+    background-color: #071d59;
+
+}
+.main > div > h5, .main > div > p{
+    color: white;
+}
+
 
 @media only screen and (max-width: 768px) {
     .community-container{
