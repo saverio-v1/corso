@@ -328,8 +328,48 @@ footer{
 .main > div > button:hover{
     background: white;
     color: #1edbde;
+        
+}
+.testimonial-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 3em 2em;
+    justify-items: center;
+    gap: 2em;
+}
+.testimonial-container-subtitle, .testimonial-container-title {
+    grid-column: span 3;
     
 }
+
+.testimonial-container-subtitle{
+    color: #1edbde;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    
+
+}
+.testimonial-container-title{
+    font-size: 47px;
+    line-height: 1.2em;
+    text-transform:capitalize
+
+}
+.testimonial-container-card{
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+
+    
+}
+.testimonial-container-card > p {
+    font-size: 16px;
+    line-height: 30px;
+    color: #767676;
+    
+}
+
 @media only screen and (max-width: 768px) {
     .community-container{
         grid-template-columns: repeat(2,1fr)
@@ -356,7 +396,7 @@ footer{
         
     }
     .main > div {
-        grid-column: span 2;
+        grid-column: span 2 !important;
     }
 
 } 
