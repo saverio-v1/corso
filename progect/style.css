@@ -270,6 +270,7 @@ footer{
     margin: 0 auto;
     max-width: 70%;
     gap: 2em;
+    padding: 100px 0 45px;
 
 }
 .main > div > button {
@@ -324,6 +325,11 @@ footer{
     margin: 0 2em;
 }
 
+.main > div > button:hover{
+    background: white;
+    color: #1edbde;
+    
+}
 @media only screen and (max-width: 768px) {
     .community-container{
         grid-template-columns: repeat(2,1fr)
