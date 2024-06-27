@@ -351,5 +351,12 @@ footer{
     .services-subtitle, .services-title{
         grid-column:  1/2;
     }
+    .information-container-card{
+        grid-column: span 2;
+        
+    }
+    .main > div {
+        grid-column: span 2;
+    }
 
 } 
