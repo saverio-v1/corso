@@ -259,21 +259,43 @@ body::-webkit-scrollbar-thumb{
 body::-webkit-scrollbar{
     background-color: rgb(255, 255, 255);
 }
+footer{
+    background-color: #071d59;
+}
+
 
 .main{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    background-color: #071d59;
+    grid-template-columns: repeat(4, 1fr);
     margin: 0 auto;
+    max-width: 70%;
     gap: 2em;
 
 }
-.main > div {
-    max-width: 20%;
+.main > div > button {
+    background-color: #1edbde;
+    padding: 1em 3em;
+    color: black;
+    border-radius: 6px;
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 20px;
+    
 }
-.main > div > h5, .main > div > p{
+.main > div > p {
+    color: #9898a0;
+    font-size: 16px;
+    line-height: 30px;
+}
+.main > div > h5 {
     color: white;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.2em;
+    margin-bottom: 30px;
+
 }
+
 .main > div:first-child {
     grid-column: 1/2;
     
@@ -288,8 +310,19 @@ body::-webkit-scrollbar{
     grid-column: 3/4;
     
 }
-
-
+.copy{
+    background-color: #1d1d29;
+    color: #9898a0;
+    display: flex;
+}
+.footer-copy-item{
+    width: 50vw;
+    display: flex;
+    justify-content: end;
+}
+.footer-copy-item > div {
+    margin: 0 2em;
+}
 
 @media only screen and (max-width: 768px) {
     .community-container{
